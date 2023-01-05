@@ -1,0 +1,76 @@
+* {
+    margin: 0;
+  }
+  
+  body {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    height: 100vh;
+    width: 100%;
+  }
+  h1{
+    text-align: center;
+    color: rgba(144, 87, 41, 0.791);
+  }
+  
+  .container {
+    width: 30%;
+    height: 70%;
+    border-radius: 15px;
+    overflow: hidden;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+  }
+
+.container .login {
+    -webkit-backdrop-filter: blur(0.2em);
+            backdrop-filter: blur(0.2em);
+    width: 100%;
+    height: 100%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    padding: 20px;
+  }
+
+  .container .login .submitbtn {
+    border: none;
+    text-decoration: solid;
+    color: aliceblue;
+    margin-top: 20px;
+    width: 110px;
+    height: 30px;
+    margin: 20px auto;
+    background-color: rgba(144, 87, 41, 0.791);
+    cursor: pointer;
+  }
+  .container .login .forgotbtn{
+    border: none;
+    text-decoration: solid;
+    color: aliceblue;
+    margin-top: 20px;
+    width: 180px;
+    height: 30px;
+    margin: 20px auto;
+    background-color: rgba(25, 21, 19, 0.791);
+    cursor: pointer;
+  }
+
+  .container .login .new_account {
+    text-decoration: none;
+    color: rgb(57, 78, 72);
+    margin: 0  auto;
+    cursor: pointer;
+  }
